@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI In HR Management | EgyptAir Holding Company</title>
+    
+    <!-- Google Fonts: Cairo for professional Arabic typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Configuration for Tailwind to set the default font -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Cairo', 'sans-serif'],
+                    },
+                    colors: {
+                        egyptair: {
+                            light: '#e0f2fe', // sky-100
+                            DEFAULT: '#0ea5e9', // sky-500
+                            dark: '#0369a1', // sky-700
+                            deep: '#082f49'  // sky-900
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #f8fafc;
+            background-image: radial-gradient(#e0f2fe 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(14, 165, 233, 0.15), 0 10px 10px -5px rgba(14, 165, 233, 0.1);
+        }
+
+        .icon-container {
+            background: linear-gradient(135deg, #0ea5e9, #0369a1);
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #0ea5e9, transparent);
+            margin-top: 10px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased min-h-screen flex flex-col">
+
+    <header class="bg-white shadow-sm border-b border-sky-100 relative overflow-hidden">
+        <!-- Decorative background elements -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-sky-50 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-blue-50 rounded-full blur-3xl -z-10 -translate-x-1/2 translate-y-1/2"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center relative z-10">
+            <div class="flex justify-center mb-6">
+                <img src="https://i.postimg.cc/cLG4K5Cq/Chat-GPT-Image-Aug-3-2026-08-26-37-PM.png" alt="EgyptAir Holding Company Logo" class="h-32 object-contain filter drop-shadow-md">
+            </div>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-egyptair-deep mb-4 tracking-tight">
+                AI In HR Management
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                هذا الموقع مخصص للشركة القابضه لمصر للطيران يحتوى على مجموعة من المساعدين الاذكاء فى مجال إداره الموارد البشرية
+            </p>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+
+        <section>
+            <h2 class="text-2xl font-bold text-egyptair-dark mb-8 section-title">القسم الأول : Prompt Engineering</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Assistant Card -->
+                <a href="https://chatgpt.com/g/g-9L30hNkJG-prompt-enhancer" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-wand-magic-sparkles text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors">Prompt Enhancer</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص لكتابه الاوامر بشكل احترافي.
+                    </p>
+                </a>
+
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold text-egyptair-dark mb-8 section-title">القسم الثاني : Training Department</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Assistant Card -->
+                <a href="https://chatgpt.com/g/g-6a70c28d852081919e013ba4f0717670-mswl-ltdryb-wlttwyr" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-chalkboard-user text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors">إنشاء الدورات التدريبية</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص لانشاء الدورات والكورسات بشكل احترافى وتدريجى لتدريب الموظفين.
+                    </p>
+                </a>
+
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold text-egyptair-dark mb-8 section-title">القسم الثالث : Job Interviews Helper</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Assistant Card 1 -->
+                <a href="https://chatgpt.com/g/g-6a6f8aa59674819189ce2b272dddf438-hnds-lmqblt-lwzyfy" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-user-tie text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors">محترف المقابلات الوظيفية</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص لوضع الاسئلة لأى انترفيو وظيفي.
+                    </p>
+                </a>
+
+                <!-- Assistant Card 2 -->
+                <a href="https://chatgpt.com/g/g-r92Y9L2G1-cv-checker-and-enhancer" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-file-signature text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors text-left" dir="ltr">CV Checker and Enhancer</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص لتقيم السير الذاتية وتحسينها.
+                    </p>
+                </a>
+
+                <!-- Assistant Card 3 -->
+                <a href="https://chatgpt.com/g/g-6a6f831278c881918eba8e212fbc8c4f-job-description-specialist" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-list-check text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors text-left" dir="ltr">Job Description Specialist</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص لوضع ال Job Description لأى وظيفة.
+                    </p>
+                </a>
+
+                <!-- Assistant Card 4 -->
+                <a href="https://gemini.google.com/gem/13LdkpCRNXwBY_T65ueratB7uBt638ObM?usp=sharing" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-file-circle-plus text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors text-left" dir="ltr">Professional CV Maker</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص لانشاء سير ذاتيه لأى وظيفة وفقا لنظام الATS.
+                    </p>
+                </a>
+
+                <!-- Assistant Card 5 -->
+                <a href="https://gemini.google.com/gem/1wgeS0i61YbQ4OcIwvjTZXApQjW4EhCN4?usp=sharing" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-user-check text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors text-left" dir="ltr">Hunting The Ideal Employee</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص لفلترة السير الذاتيه واختيار الموظف المثالى والمناسب للوظيفة.
+                    </p>
+                </a>
+
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold text-egyptair-dark mb-8 section-title">القسم الرابع : Payroll Professionalism</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Assistant Card 1 -->
+                <a href="https://gemini.google.com/gem/1lOHX64qCOUpWlKjX446YVyPZnV6QtJBQ?usp=sharing" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-file-invoice-dollar text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors text-left" dir="ltr">Payroll Summary Report Specialist</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص لانشاء التقرير الأهم للإدارة العليا وهو تقرير ملخص المرتبات حيث انه يعرض إجماليات كل بند (إجمالي الأساسي، التأمينات، الخصومات) لأن الإدارة لا تقرأ تفاصيل كل موظف.
+                    </p>
+                </a>
+
+                <!-- Assistant Card 2 -->
+                <a href="https://gemini.google.com/gem/1s5B_3OyiVOsYP9aRfqyGIWK6xZItgQE_?usp=sharing" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-chart-pie text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors text-left" dir="ltr">Payroll Dashboard</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص لانشاء لوحة المؤشرات (Payroll Dashboard) رسومات بيانية ومؤشرات بصرية سريعة توضح للإدارة اتجاه المرتبات وحركة التكاليف.
+                    </p>
+                </a>
+
+                <!-- Assistant Card 3 -->
+                <a href="https://gemini.google.com/gem/1Q-iuf4L62MYGznNkhUzduVQCIdcjFxZU?usp=sharing" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-magnifying-glass-chart text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors text-left" dir="ltr">Payroll Variance Analysis Report</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص بتحليل انحرافات الرواتب بين أكثر من شهر.
+                    </p>
+                </a>
+
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold text-egyptair-dark mb-8 section-title">القسم الخامس : Email Writing</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Assistant Card -->
+                <a href="https://chatgpt.com/g/g-6a70f36a27948191bf28188f3dc0ecae-email-writing" target="_blank" class="block bg-white rounded-2xl p-6 border border-sky-50 card-hover group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-egyptair"></div>
+                    <div class="flex items-center space-x-4 space-x-reverse mb-4">
+                        <div class="icon-container w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-envelope-open-text text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-egyptair-deep group-hover:text-egyptair-dark transition-colors text-left" dir="ltr">Professional Email Writing</h3>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        مساعد ذكى متخصص في كتابه الايميلات الرسمية بشكل احترافي.
+                    </p>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-egyptair-deep text-sky-100 py-8 mt-12 border-t-4 border-egyptair">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center space-y-4">
+            <p class="text-base font-semibold">
+                جميع الحقوق محفوظة لدى الشركة القابضة لمصر للطيران ولا يسمح بتداوله خارج الشركة
+            </p>
+            <div class="w-24 h-px bg-sky-700"></div>
+            <p class="text-sm opacity-80">
+                تم انشاء الموقع بواسطة الدكتور أيمن القاضي &copy; 2026
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
